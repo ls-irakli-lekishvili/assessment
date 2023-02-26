@@ -501,6 +501,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mui/icons-material@npm:^5.11.9":
+  version: 5.11.9
+  resolution: "@mui/icons-material@npm:5.11.9"
+  dependencies:
+    "@babel/runtime": "npm:^7.20.13"
+  peerDependencies:
+    "@mui/material": ^5.0.0
+    "@types/react": ^17.0.0 || ^18.0.0
+    react: ^17.0.0 || ^18.0.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: 759504f244b01bf0a447791b411f70533a378e742a197a8eb2eb893fca3103a408e38213784601f6ffc97ae3a50523593d79c6a601f6aa026e59d000dfc6e493
+  languageName: node
+  linkType: hard
+
 "@mui/material@npm:^5.11.10":
   version: 5.11.10
   resolution: "@mui/material@npm:5.11.10"
@@ -694,6 +710,13 @@ __metadata:
   version: 2.11.6
   resolution: "@popperjs/core@npm:2.11.6"
   checksum: 39ed8d02c4d16dbe90bc537f7d4702320a95276d1fd902f74a48f544c6214a89a51a13f81603cb08786156350734f54834c41e011857637ae25340519d6160df
+  languageName: node
+  linkType: hard
+
+"@remix-run/router@npm:1.3.2":
+  version: 1.3.2
+  resolution: "@remix-run/router@npm:1.3.2"
+  checksum: 517a7372a7b9051b80b333e7b20cb98fd6c5bf3412e941dca3d2c45f72b3b3e94744ae9f3f23fbbf76d5eb5436016155a0d490e3d36c402dc443cdf6b5376eb9
   languageName: node
   linkType: hard
 
@@ -1236,37 +1259,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"assigment@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "assigment@workspace:."
-  dependencies:
-    "@mui/material": "npm:^5.11.10"
-    "@mui/styled-engine-sc": "npm:^5.11.9"
-    "@types/eslint": "npm:^8"
-    "@types/prettier": "npm:^2"
-    "@types/react": "npm:^18.0.27"
-    "@types/react-dom": "npm:^18.0.10"
-    "@types/styled-components": "npm:^5"
-    "@typescript-eslint/eslint-plugin": "npm:^5.0.0"
-    "@typescript-eslint/parser": "npm:^5.53.0"
-    "@vitejs/plugin-react-swc": "npm:^3.0.0"
-    eslint: "npm:^8.0.1"
-    eslint-config-prettier: "npm:^8.6.0"
-    eslint-config-standard-with-typescript: "npm:^34.0.0"
-    eslint-plugin-import: "npm:^2.25.2"
-    eslint-plugin-n: "npm:^15.0.0"
-    eslint-plugin-promise: "npm:^6.0.0"
-    eslint-plugin-react: "npm:^7.32.2"
-    prettier: "npm:^2.8.4"
-    react: "npm:^18.2.0"
-    react-dom: "npm:^18.2.0"
-    react-is: "npm:^18.2.0"
-    styled-components: "npm:^5.3.6"
-    typescript: "npm:*"
-    vite: "npm:^4.1.0"
-  languageName: unknown
-  linkType: soft
-
 "available-typed-arrays@npm:^1.0.5":
   version: 1.0.5
   resolution: "available-typed-arrays@npm:1.0.5"
@@ -1302,6 +1294,40 @@ __metadata:
   checksum: 9ca7fca1845f06edbd8478e209a2e8eed5bb148a021719e77affeaf0c61e45af20279e4540a9f11942acc27c078fc132ff0ebc9c16a403033cff5af3d8199f40
   languageName: node
   linkType: hard
+
+"bolnisi_agrocener@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "bolnisi_agrocener@workspace:."
+  dependencies:
+    "@mui/icons-material": "npm:^5.11.9"
+    "@mui/material": "npm:^5.11.10"
+    "@mui/styled-engine-sc": "npm:^5.11.9"
+    "@types/eslint": "npm:^8"
+    "@types/prettier": "npm:^2"
+    "@types/react": "npm:^18.0.27"
+    "@types/react-dom": "npm:^18.0.10"
+    "@types/styled-components": "npm:^5"
+    "@typescript-eslint/eslint-plugin": "npm:^5.0.0"
+    "@typescript-eslint/parser": "npm:^5.53.0"
+    "@vitejs/plugin-react-swc": "npm:^3.0.0"
+    eslint: "npm:^8.0.1"
+    eslint-config-prettier: "npm:^8.6.0"
+    eslint-config-standard-with-typescript: "npm:^34.0.0"
+    eslint-plugin-import: "npm:^2.25.2"
+    eslint-plugin-n: "npm:^15.0.0"
+    eslint-plugin-promise: "npm:^6.0.0"
+    eslint-plugin-react: "npm:^7.32.2"
+    prettier: "npm:^2.8.4"
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
+    react-is: "npm:^18.2.0"
+    react-router-dom: "npm:^6.8.1"
+    react-scroll-motion: "npm:^0.3.2"
+    styled-components: "npm:^5.3.6"
+    typescript: "npm:*"
+    vite: "npm:^4.1.0"
+  languageName: unknown
+  linkType: soft
 
 "brace-expansion@npm:^1.1.7":
   version: 1.1.11
@@ -3448,6 +3474,40 @@ __metadata:
   version: 18.2.0
   resolution: "react-is@npm:18.2.0"
   checksum: f542f0effed3f89b4faa237bf56e746d437c9dba4ed1039a2ba6e6fcb463244300b8f3c17d8e610e76476a626c4d97ee4c2ed7a5b5d64e2b2e2d7b2144816ac8
+  languageName: node
+  linkType: hard
+
+"react-router-dom@npm:^6.8.1":
+  version: 6.8.1
+  resolution: "react-router-dom@npm:6.8.1"
+  dependencies:
+    "@remix-run/router": "npm:1.3.2"
+    react-router: "npm:6.8.1"
+  peerDependencies:
+    react: ">=16.8"
+    react-dom: ">=16.8"
+  checksum: e2d385fbbda29bf1a143fe353e0267c3380b0ad1122f12814d3ce080d922a7389f06eb9d737fc71644ae8752b59f21cbed0d0816389f1039a876dffd1e829f3f
+  languageName: node
+  linkType: hard
+
+"react-router@npm:6.8.1":
+  version: 6.8.1
+  resolution: "react-router@npm:6.8.1"
+  dependencies:
+    "@remix-run/router": "npm:1.3.2"
+  peerDependencies:
+    react: ">=16.8"
+  checksum: 24e4b12e86a01c0491ec3188a0d1503cf52c59324d395a0967ea4a8eb9f09120da9533f2758d098d3435ed5a8788f2996d7fb4a53614fdbe37eca164cb5d58b8
+  languageName: node
+  linkType: hard
+
+"react-scroll-motion@npm:^0.3.2":
+  version: 0.3.2
+  resolution: "react-scroll-motion@npm:0.3.2"
+  peerDependencies:
+    react: ^18.0.11
+    react-dom: ^18.0.11
+  checksum: da5d11e0cc3931d6326905c8a6439261071735233260b3896353acc79df585a9243817f4be8f8e6f8172120b8ff8998cfd49de62b40bd4d88a499e24db00b015
   languageName: node
   linkType: hard
 

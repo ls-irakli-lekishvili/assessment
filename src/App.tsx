@@ -1,12 +1,26 @@
 import React from 'react';
-import { Button, styled } from '@mui/material';
-
-const CustomButton = styled(Button)`
-  margin: 10px;
-`;
+import { Routes, Route } from 'react-router-dom';
+import { Container, ThemeProvider } from '@mui/material';
+import Footer from './components/footer/Footer';
+import Header from './components/header/Header';
+import NavBar from './components/navBar/NavBar';
+import Home from './pages/home/Home';
+import theme from './stylesheets/stylesheet';
 
 const App: React.FC = () => {
-  return <CustomButton variant="contained"> workingggg</CustomButton>;
+  return (
+    <ThemeProvider theme={theme}>
+      <Container maxWidth="xl">
+        <Header />
+        <Routes>
+          <Route path="/" element={<NavBar />}>
+            <Route index element={<Home />} />
+          </Route>
+        </Routes>
+      </Container>
+      <Footer />
+    </ThemeProvider>
+  );
 };
 
 export default App;
