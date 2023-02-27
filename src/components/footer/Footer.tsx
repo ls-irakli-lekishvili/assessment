@@ -18,7 +18,7 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 const Footer: React.FC = () => {
   return (
     <StyledFooterContainer component="footer">
-      <Container maxWidth="lg" sx={{ height: '100%' }}>
+      <Container maxWidth="xl" sx={{ height: '100%' }}>
         <Stack direction="row" height="100%" alignItems="center" spacing={6}>
           <Box component="img" alt="bolnisi logo" src={bolnisiLogo} height="100px" mr={6} />
           <Stack spacing={1}>
