@@ -6,7 +6,7 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 const News = () => {
   return (
-    <Box mt={3} sx={{ position: 'relative', zIndex: 5 }}>
+    <Box mt={5} sx={{ position: 'relative', zIndex: 5 }}>
       <Typography variant="h6" color="secondary">
         სიახლეები
       </Typography>

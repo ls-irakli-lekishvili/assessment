@@ -1,4 +1,4 @@
-import { Divider } from '@mui/material';
+import { Divider, styled } from '@mui/material';
 import React from 'react';
 import { ScrollPage } from 'react-scroll-motion';
 import Carousel from '../../../components/carousel/Carousel';
@@ -14,7 +14,7 @@ const images = [
 
 const PageTwo = () => {
   return (
-    <ScrollPage style={{ height: '1100px' }}>
+    <ScrollPage style={{ height: '1200px' }}>
       <Carousel images={images} />
       <News />
       <Divider sx={{ margin: '30px 0' }} />
