@@ -11,7 +11,7 @@ Bolnisi Agrocenter.
 
 ## Demo
 
-coming soon
+[site](https://effervescent-gecko-aad4c6.netlify.app/)
 
 ## Installation
 
